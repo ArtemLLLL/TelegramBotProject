@@ -8,6 +8,7 @@ namespace TelegramBotProject
     static class ConfigurationManager
     {
         public static IConfiguration AppSetting { get; }
+
         static ConfigurationManager()
         {
             AppSetting = new ConfigurationBuilder()
